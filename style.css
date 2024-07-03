@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "SST";
+    src: url('./font/SST-Medium.woff2') format('woff2');
+    font-style: normal;
+}
+@font-face {
+    font-family: "SST Roman";
+    src: url('./font/SST-Roman.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "SST Light";
+    src: url('./font/SST-Light.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "SST Light2";
+    src: url('./font/SST-UltraLight.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first_section{
+    background-color: black;
+    width: 100vw;
+    height: 34px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.first_section img{
+    width: 70px;
+}
