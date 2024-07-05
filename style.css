@@ -67,3 +67,66 @@
     font-size: 12px;
     font-family: "SST";
 }
+.nav_links_left{
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    align-items: center;
+}
+.nav_links_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon svg{
+    align-self: flex-end;
+    fill: black;
+
+}
+.blue_but{
+  background-color: #0070cb;
+  color: white;
+  border-radius: 14px;
+  border: none;
+  outline: none;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-family: "SST";
+  size: 80rem 24rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.blue_but:hover{
+    background-color: #034f8d;
+    box-shadow: 0 0 0 4px #ffffff;
+
+}
+.icon:hover p{
+    color: blue;
+}
+.nav_section_mobile{
+    display: none;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+@media  screen and (max-width:700px) {
+    .nav_section_desktop{
+        display: none;
+    }
+    .nav_section_mobile{
+        display: flex;
+    }
+    .first_section{
+        display: none;
+    }
+    
+}
